@@ -45,5 +45,3 @@ Analyze historical sprint data to identify areas for improvement and enhance fut
 - Jupyter Notebook
 - Python libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`
 ```
-
-You can include these instructions in your README or any other documentation as needed.
