@@ -14,3 +14,6 @@ sprint_id,team_member,task_id,task_description,estimated_hours,actual_hours,comp
 5,Alice,504,Develop API endpoints,7,9,Completed
 5,Bob,505,Create frontend components,8,12,In Progress
 5,Charlie,506,Integrate frontend and backend,6,7,Completed
+6,Alice,600,Develop Feature,,,To Be Estimated
+6,Bob,601,Test feature,,,To Be Estimated
+6,Charlie,602,Review Code,,,To Be Estimated
