@@ -3,6 +3,8 @@ Repo for KCDC 2024 Workshop -- Agile AI: Leveraging Artificial Intelligence to 1
 
 # Sprint Retrospective Analysis
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/heathriel/Sprint-Retrospective-Analysis/HEAD)
+
 ## Objective
 Analyze historical sprint data to identify areas for improvement and enhance future sprint planning.
 
