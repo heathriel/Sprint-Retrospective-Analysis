@@ -1,16 +1,16 @@
 sprint_id,team_member,task_id,task_description,estimated_hours,actual_hours,completion_status
 1,Alice,101,Setup environment,5,6,Completed
-1,Bob,102,Develop feature A,10,,
+1,Bob,102,Develop feature A,10,18,In Progress
 1,Charlie,103,Test feature A,3,4,Completed
 2,Alice,201,Develop feature B,8,7,Completed
 2,Bob,202,Review code,2,3,Completed
-2,Charlie,203,Test feature B,4,,
+2,Charlie,203,Test feature B,4,8,In Progress
 3,Alice,301,Develop feature C,12,10,Completed
 3,Bob,302,Test feature C,3,4,Completed
 3,Charlie,303,Deploy,2,3,Completed
 4,Alice,401,Setup project repository,4,5,Completed
-4,Bob,402,Design database schema,6,,
+4,Bob,402,Design database schema,6,14,In Progress
 4,Charlie,403,Implement authentication,5,6,Completed
 5,Alice,504,Develop API endpoints,7,9,Completed
-5,Bob,505,Create frontend components,8,,
+5,Bob,505,Create frontend components,8,12,In Progress
 5,Charlie,506,Integrate frontend and backend,6,7,Completed
