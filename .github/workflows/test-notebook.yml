@@ -1,0 +1,30 @@
+name: Test Notebook
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt jupyter nbmake
+
+      - name: Run notebook (no LLM key — skips AI step gracefully)
+        run: python -m pytest --nbmake sprint_analysis.ipynb -v
+        env:
+          # No API keys set — LLM cell falls back to sample output
+          SKIP_AUDIO: "true"
